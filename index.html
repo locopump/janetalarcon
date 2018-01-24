@@ -26,7 +26,7 @@
       <link rel='stylesheet' href='dist/css/appstyle.css' type='text/css' media='all' />
       <link rel='stylesheet' id='businesslounge-style-all-css'  href='dist/css/app.min.css?ver=4.9.1' type='text/css' media='all' />
       <link rel='stylesheet' id='fontello-css'  href='dist/css/fontello/css/fontello.css?ver=4.9.1' type='text/css' media='all' />
-      <link rel='stylesheet' id='businesslounge-theme-style-css'  href='dist/style.css?ver=4.9.1' type='text/css' media='all' />
+      <link rel='stylesheet' id='businesslounge-theme-style-css'  href='dist/css/style.css?ver=4.9.1' type='text/css' media='all' />
       <style id='businesslounge-theme-style-inline-css' type='text/css'>
          .rt-1405700.wpb_column > .rt-column-inner{padding-left:0px!important;padding-right:0px!important;}.rt-797579 > .content_row_wrapper{padding-top:0px!important;padding-bottom:0px!important;}.rt-3347513.wpb_column > .rt-column-inner{padding-top:20px!important;padding-bottom:20px!important;}.rt-2578296.wpb_column > .rt-column-inner{padding-top:20px!important;padding-bottom:20px!important;}.rt-2105354 > .content_row_wrapper{padding-top:60px!important;padding-bottom:60px!important;}.rt-2768439 > .content_row_wrapper{padding-top:60px!important;padding-bottom:60px!important;}@media (min-width: 768px) and (max-width: 992px) {}@media screen and (max-width: 767px) {}
       </style>
@@ -39,6 +39,7 @@
       <link rel='stylesheet' id='js_composer_front-css'  href='dist/plugins/js_composer/assets/css/js_composer.min.css?ver=5.3' type='text/css' media='all' />
       <link rel='stylesheet' id='businesslounge-google-fonts-css'  href='//fonts.googleapis.com/css?family=Fira+Sans%3A700%2Cregular%2C500%2C400i%2Citalic&#038;subset=latin&#038;ver=1.0.0' type='text/css' media='all' />
       <link rel='stylesheet' id='jetpack_css-css'  href='dist/plugins/jetpack/css/jetpack.css?ver=5.7' type='text/css' media='all' />
+      <link rel="stylesheet" href="dist/adminlte/dist/css/AdminLTE.min.css">
 
       <script type='text/javascript' src='dist/js/jquery/jquery.js?ver=1.12.4'></script>
       <script type='text/javascript' src='dist/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
@@ -89,7 +90,7 @@
                         <div id="social_media_icons-2" class="header-widget widget widget_social_media_icons">
                            <div class="businesslounge-social-media-widget">
                               <ul class="social_media inline-list">
-                                 <li class="twitter"><a class="ui-icon-twitter" target="_blank" href="#" title="Twitter"><span>Twitter</span></a></li>
+                                 <li class="twitter"><a class="ui-icon-twitter" target="_blank" href="https://twitter.com/JanetAlarcon_EC" title="Twitter"><span>Twitter</span></a></li>
                                  <li class="facebook"><a class="ui-icon-facebook" target="_blank" href="https://www.facebook.com/Janet-Alarcon-527933214233967/" title="Facebook"><span>Facebook</span></a></li>
                                  <li class="linkedin"><a class="ui-icon-linkedin" target="_blank" href="#" title="Linkedin"><span>LinkedIn</span></a></li>
                                  <li class="skype"><a class="ui-icon-skype" target="_blank" href="#" title="Skype"><span>Skype</span></a></li>
@@ -114,12 +115,14 @@
                         <nav>
                            <ul class="main-menu">
                               <li id='menu-item-4631' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-4015 current_page_item"><a  href="index.html"><span>Inicio</span></a> </li>
-                              <li id='menu-item-4546' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="nosotros.html/"><span>Nosotros</span></a> </li>
-                              <li id='menu-item-4541' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="servicios.html/"><span>Servicios</span></a> </li>
-                              <li id='menu-item-4491' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="clientes.html"><span>Clientes</span></a> </li>
+                              <li id='menu-item-4546' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="#nosotros/"><span>Nosotros</span></a> </li>
+                              <li id='menu-item-4541' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="#servicios/"><span>Servicios</span></a> </li>
+                              <li id='menu-item-4491' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="#clientes"><span>Clientes</span></a> </li>
                               <li id='menu-item-4491' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="cotizacion.html"><span>Cotización</span></a> </li>
-                              <li id='menu-item-4491' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="blog.html"><span>Blog</span></a> </li>
-                              <li id='menu-item-4555' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="contactenos.html"><span>Contáctenos</span></a> </li>
+                              <li id='menu-item-4491' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a target="_blank" href="https://johannabc13.wixsite.com/misitio"><span>Blog</span></a> </li>
+                              <li id='menu-item-4555' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page">
+                                 <a href="#contactenos"><span>Contáctenos</span></a>
+                              </li>
                            </ul>
                         </nav>
                      </div>
@@ -144,11 +147,11 @@
                         <nav>
                            <ul class="main-menu">
                               <li id='sticky-menu-item-4631' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-4015 current_page_item"><a  href="index.html"><span>Inicio</span></a> </li>
-                              <li id='sticky-menu-item-4546' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="nosotros.html"><span>Nosotros</span></a> </li>
-                              <li id='sticky-menu-item-4541' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="servicios.html"><span>Servicios</span></a> </li>
-                              <li id='sticky-menu-item-4491' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="clientes.html"><span>Clientes</span></a> </li>
+                              <li id='sticky-menu-item-4546' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="#nosotros"><span>Nosotros</span></a> </li>
+                              <li id='sticky-menu-item-4541' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="#servicios"><span>Servicios</span></a> </li>
+                              <li id='sticky-menu-item-4491' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="#clientes"><span>Clientes</span></a> </li>
                               <li id='sticky-menu-item-4491' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="cotizacion.html"><span>Cotización</span></a> </li>
-                              <li id='sticky-menu-item-4491' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="blog.html"><span>Blog</span></a> </li>
+                              <li id='sticky-menu-item-4491' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a target="_blank" href="https://johannabc13.wixsite.com/misitio"><span>Blog</span></a> </li>
                               <li id='sticky-menu-item-4555' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="contactenos.html"><span>Contáctenos</span></a> </li>
 
                            </ul>
@@ -204,12 +207,12 @@
             <nav>
                <ul id="mobile-navigation" class="menu">
                   <li id='mobile-menu-item-4631' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-4015 current_page_item"><a  href="index.html"><span>Inicio</span></a> </li>
-                  <li id='mobile-menu-item-4546' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="http://nosotros.html"><span>Nosotros</span></a> </li>
-                  <li id='mobile-menu-item-4541' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="http://servicios.html"><span>Servicios</span></a> </li>
-                  <li id='mobile-menu-item-4491' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="http://clientes"><span>Clientes</span></a> </li>
+                  <li id='mobile-menu-item-4546' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="#nosotros"><span>Nosotros</span></a> </li>
+                  <li id='mobile-menu-item-4541' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="#servicios"><span>Servicios</span></a> </li>
+                  <li id='mobile-menu-item-4491' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="#clientes"><span>Clientes</span></a> </li>
                   <li id='mobile-menu-item-4555' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="http://cotizacion.html"><span>Cotización</span></a> </li>
-                  <li id='mobile-menu-item-4555' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="http://blog.html"><span>Blog</span></a> </li>
-                  <li id='mobile-menu-item-4555' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="http://contactenos.html"><span>Contáctenos</span></a> </li>
+                  <li id='mobile-menu-item-4555' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a target="_blank" href="https://johannabc13.wixsite.com/misitio"><span>Blog</span></a> </li>
+                  <li id='mobile-menu-item-4555' data-depth='0' class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="#contactenos"><span>Contáctenos</span></a> </li>
                </ul>
             </nav>
          </div>
@@ -231,7 +234,7 @@
                                              <div class="slide-text" data-mobile-value="18" style="">
                                                 <p>Abarca todo el proceso contable de una empresa, desde la carga de información, cálculo de planillas, declaraciones de impuestos y emisión de estados financieros.</p>
                                              </div>
-                                             <div class="button_wrapper  arrow rounded"><a href="servicios.html" target="_self" title="LEER MÁS" class="button_  black small"><span><span>LEER MÁS</span></span></a></div>
+                                             <div class="button_wrapper  arrow rounded"><a href="#servicios" target="_self" title="LEER MÁS" class="button_  black small"><span><span>LEER MÁS</span></span></a></div>
                                           </div>
                                        </div>
                                        <div class="slide-background" style="background-image: url(dist/uploads/2017/06/h1.jpg?fit=1920%2C800);background-repeat: no-repeat;background-size: cover;background-position: center center;"></div>
@@ -243,7 +246,7 @@
                                              <div class="slide-text" data-mobile-value="18" style="">
                                                 <p>Evaluamos y asesoramos a empresas que buscan mayor eficiencia en el correcto uso de sus recursos operativos y financieros.</p>
                                              </div>
-                                             <div class="button_wrapper  arrow rounded"><a href="servicios.html" target="_self" title="LEER MÁS" class="button_  black small"><span><span>LEER MÁS</span></span></a></div>
+                                             <div class="button_wrapper  arrow rounded"><a href="#servicios" target="_self" title="LEER MÁS" class="button_  black small"><span><span>LEER MÁS</span></span></a></div>
                                           </div>
                                        </div>
                                        <div class="slide-background" style="background-image: url(dist/uploads/2017/06/h2.jpg?fit=1920%2C800);background-repeat: no-repeat;background-size: cover;background-position: center center;"></div>
@@ -255,7 +258,7 @@
                                              <div class="slide-text" data-mobile-value="18" style="">
                                                 <p>Revisamos y validamos la información tributaria de una empresa, con el objetivo de identificar contingencias y corregirlas a tiempo antes de fiscalizaciones.</p>
                                              </div>
-                                             <div class="button_wrapper  arrow rounded"><a href="servicios.html" target="_self" title="LEER MÁS" class="button_  black small"><span><span>LEER MÁS</span></span></a></div>
+                                             <div class="button_wrapper  arrow rounded"><a href="#servicios" target="_self" title="LEER MÁS" class="button_  black small"><span><span>LEER MÁS</span></span></a></div>
                                           </div>
                                        </div>
                                        <div class="slide-background" style="background-image: url(dist/uploads/2017/06/tax.jpg?fit=1920%2C800);background-repeat: no-repeat;background-size: cover;background-position: center center;"></div>
@@ -267,7 +270,7 @@
                                              <div class="slide-text" data-mobile-value="18" style="">
                                                 <p>Los negocios en el mundo se transforman cada día y nosotros tenemos la responsabilidad de convertir una pequeña empresa en una mediana empresa de acuerdo a la demanda de los clientes, nuestro departamente de consultaría le ofrece una amplia gama de servicios desde start-ups hasta grandes corporaciones.Diseñamos e implementamos estrategias con el fin de generar el crecimiento de su empresa hacia el cumplimiento de sus metas empresariales, en un corto plazo.</p>
                                              </div>
-                                             <div class="button_wrapper  arrow rounded"><a href="servicios.html" target="_self" title="LEER MÁS" class="button_  black small"><span><span>LEER MÁS</span></span></a></div>
+                                             <div class="button_wrapper  arrow rounded"><a href="#servicios" target="_self" title="LEER MÁS" class="button_  black small"><span><span>LEER MÁS</span></span></a></div>
                                           </div>
                                        </div>
                                        <div class="slide-background" style="background-image: url(dist/uploads/2017/06/entre.jpg?fit=1920%2C800);background-repeat: no-repeat;background-size: cover;background-position: center center;"></div>
@@ -286,34 +289,8 @@
                   </div>
                </div>
             </div>
-            <div  class="content_row row vc_row wpb_row  default-style fullwidth fixed_heights rt-flex-wrapper animate-cols rt-flex-wrapper rt-2105354">
-               <div class="content_row_wrapper align-contents content-align-middle default">
-                  <div class="vc_col-sm-12 vc_col-md-6 wpb_column vc_column_container rt-3347513 rt-column-container">
-                     <div class="vc_column-inner rt-column-inner">
-                        <div class="wpb_wrapper rt-wrapper">
-                           <img class="retina-image aligncenter" src="dist/uploads/2017/06/map-2x-554x259.png" width="554" height="259" alt="" srcset="dist/uploads/2017/06/map-2x.png?fit=1108%2C518 1.3x" />
-                        </div>
-                     </div>
-                  </div>
-                  <div class="tablet-text-center vc_col-sm-12 vc_col-md-6 wpb_column vc_column_container rt-2578296 tablet-text-center mobile-text-center rt-column-container">
-                     <div class="vc_column-inner rt-column-inner">
-                        <div class="wpb_wrapper rt-wrapper">
-                           <article class="content-box content-box2 content-padding">
-                              <div class="rt-heading-wrapper style-1">
-                                 <a href="#" target="_self" title="Read More">
-                                    <h3 class="rt-heading style-1" >Un poco de Nosotros</h3>
-                                 </a>
-                              </div>
-                              <div class="content-holder">
-                                 <p class="p1">Somos un Estudio Contable con amplia experiencia en brindar servicios integrales en las áreas de Contabilidad, Auditoría, Tributación, Asesoría Laboral, Financiera y Administrativa. Contamos con profesionalismo, brindando nuestros servicios con un amplio personal altamente competente y competitivo con la excelencia que se refleja en la confiabilidad y confidencialidad de nuestros servicios para la completa satisfacción de nuestros clientes.</p>
-                                 <div class="button_wrapper  arrow rounded"><a href="nosotros.html" target="_self" title="Leer más" class="button_  style-1 small"><span><span>Leer Más</span></span></a></div>
-                              </div>
-                           </article>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
+
+            <!-- AQUIIII -->
             <div  class="content_row row vc_row wpb_row  default-style fullwidth animate-cols rt-2768439">
                <div class="content_row_wrapper  default">
                   <div class="vc_col-sm-12 wpb_column vc_column_container rt-column-container">
@@ -340,6 +317,165 @@
             </div>
          </div>
          <!-- / end #main_content -->
+
+<!-- SECCION NOSOTROS -->
+         <section class="main-section no-padding" id="nosotros">
+            <!-- <div class="container"> -->
+               <div  class="content_row row vc_row wpb_row  default-style fullwidth fixed_heights rt-flex-wrapper animate-cols rt-flex-wrapper rt-2105354">
+                  <div class="content_row_wrapper align-contents content-align-middle default">
+                     <div class="vc_col-sm-12 vc_col-md-6 wpb_column vc_column_container rt-3347513 rt-column-container">
+                        <div class="vc_column-inner rt-column-inner">
+                           <div class="wpb_wrapper rt-wrapper">
+                              <img class="retina-image aligncenter" src="dist/uploads/2017/06/map-2x-554x259.png" width="554" height="259" alt="" srcset="dist/uploads/2017/06/map-2x.png?fit=1108%2C518 1.3x" />
+                           </div>
+                        </div>
+                     </div>
+                     <div class="tablet-text-center vc_col-sm-12 vc_col-md-6 wpb_column vc_column_container rt-2578296 tablet-text-center mobile-text-center rt-column-container no-padding">
+                        <div class="vc_column-inner rt-column-inner">
+                           <div class="wpb_wrapper rt-wrapper">
+                              <article class="content-box content-box2 content-padding">
+                                 <div class="rt-heading-wrapper style-1">
+                                    <a href="#" target="_self" title="Read More">
+                                       <h3 class="rt-heading style-1" >Un poco de Nosotros</h3>
+                                    </a>
+                                 </div>
+                                 <div class="content-holder">
+                                    <p class="p1">Somos un Estudio Contable con amplia experiencia en brindar servicios integrales en las áreas de Contabilidad, Auditoría, Tributación, Asesoría Laboral, Financiera y Administrativa. Contamos con profesionalismo, brindando nuestros servicios con un amplio personal altamente competente y competitivo con la excelencia que se refleja en la confiabilidad y confidencialidad de nuestros servicios para la completa satisfacción de nuestros clientes.</p>
+                                    <p>
+                                       Nuestra conducta en el trabajo se basa en brindar un trato a los clientes en el que se distingan el profesionalismo y la integridad al tiempo que le ofrece una propuesta de negocio que propicie crecimiento y desarrollo.
+                                       Estudio JANET MAMANI SAC tiene como filosofía de trabajo poder cumplir con sus expectativas de calidad y satisfacción, de esa forma ofrecerles el mejor servicio en asesoramiento empresarial.
+                                    </p>
+                                    <div class="button_wrapper  arrow rounded"><a href="#perfilcorporativo" target="_self" title="Leer más" class="button_  style-1 small"><span><span>Leer Más</span></span></a></div>
+                                 </div>
+                              </article>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row" id="perfilcorporativo">
+                     <div class="col-md-2">&nbsp;</div>
+                     <div class="col-md-8 padding aling-center">
+                        <div class="box box-solid">
+                           <div class="box-header with-border">
+                              <i class="fa fa-text-width"></i>
+                              <h3 class="box-title">Perfil Corporativo</h3>
+                           </div>
+                           <div class="box-body">
+                              <dl>
+                                 <dt>Misión</dt>
+                                 <dd>Nuestro compromiso es contribuir al crecimiento de nuestros clientes con el fin de que logren competitividad en el mercado, a través de una asesoría eficiente, responsable y puntual. Así como entregar informes de auditoría para la correcta toma de decisiones de las empresas-clientes.</dd>
+                                 <dt>Visión</dt>
+                                 <dd>Ser una firma líder y altamente reconocida en el mercado de asesoría contable y auditoría. Así como ser una firma conocida por nuestra capacidad de brindar soluciones al empresario.</dd>
+                              </dl>
+                           </div>
+                        </div>
+                        <div class="box box-solid">
+                           <div class="box-header with-border">
+                              <i class="fa fa-text-width"></i>
+                              <h3 class="box-title">Valores</h3>
+                           </div>
+                           <div class="box-body">
+                              <dl>
+                                 <dt>Confidencialidad:</dt>
+                                 <dd>Trabajamos bajo la más estricta confidencialidad y secreto profesional.</dd>
+                                 <dt>Confiabilidad:</dt>
+                                 <dd>Nuestros clientes deben considerarnos como un proveedor confiable en todos los aspectos de nuestros servicios.</dd>
+                                 <dt>Trabajo en equipo:</dt>
+                                 <dd>La mejor forma de trabajo para obtener el mejor resultado. La prestación de nuestros servicios sería imposible de brindar con la calidad que exigimos, si no fuera por el trabajo en equipo de nuestra gente.</dd>
+                                 <dt>Integridad y ética en nuestros servicios. Calidad humana:</dt>
+                                 <dd>Nuestro trabajo está orientado al mantenimiento de la ética, el prestigio y la seriedad.</dd>
+                                 <dt>Transparencia y honestidad:</dt>
+                                 <dd>Consideramos que nuestros servicios y políticas deben ser totalmente transparentes para con nuestro cliente y no generar ningún tipo de dudas en el alcance y la prestación de los mismos.</dd>
+                              </dl>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-md-2">&nbsp;</div>
+                  </div>
+               </div>
+            <!-- </div> -->
+         </section>
+<!-- SECCION NOSOTROS -->
+
+
+<!-- SECCION CLIENTES -->
+         <section class="main-section no-padding" id="clientes">
+
+            <div  class="content_row row vc_row wpb_row  default-style fullwidth animate-cols rt-2768439">
+               <div class="content_row_wrapper  default">
+                  <div class="vc_col-sm-12 wpb_column vc_column_container rt-column-container">
+                     <div class="vc_column-inner rt-column-inner">
+                        <div class="wpb_wrapper rt-wrapper">
+                           <div id="image-carousel-691680" class="rt-carousel carousel-holder clearfix rt-image-carousel  rt_lightbox_gallery" data-item-width="4" data-nav="true" data-dots="false" data-margin="0" data-autoplay="true" data-timeout="3000" data-thumbnails="false" data-boxed="false" data-min-height="" data-padding="0" data-loop="true" data-tablet-item-width="3" data-mobile-item-width="1">
+                              <div class="owl-carousel">
+                                 <div><img src="dist/images/carousel/carousel-1.jpg?fit=250%2C80" width="250" height="80" alt="" srcset="dist/images/carousel/carousel-1.jpg?w=250 250w, dist/images/carousel/carousel-1.jpg?resize=125%2C40 125w" sizes="(max-width: 250px) 100vw, 250px"></div>
+                                 <div><img src="dist/images/carousel/carousel-2.jpg?fit=250%2C80" width="250" height="80" alt="" srcset="dist/images/carousel/carousel-2.jpg?w=250 250w, dist/images/carousel/carousel-2.jpg?resize=125%2C40 125w" sizes="(max-width: 250px) 100vw, 250px"></div>
+                                 <div><img src="dist/images/carousel/carousel-3.jpg?fit=250%2C80" width="250" height="80" alt="" srcset="dist/images/carousel/carousel-3.jpg?w=250 250w, dist/images/carousel/carousel-3.jpg?resize=125%2C40 125w" sizes="(max-width: 250px) 100vw, 250px"></div>
+                                 <div><img src="dist/images/carousel/carousel-4.jpg?fit=250%2C80" width="250" height="80" alt="" srcset="dist/images/carousel/carousel-4.jpg?w=250 250w, dist/images/carousel/carousel-4.jpg?resize=125%2C40 125w" sizes="(max-width: 250px) 100vw, 250px"></div>
+                                 <div><img src="dist/images/carousel/carousel-5.jpg?fit=250%2C80" width="250" height="80" alt="" srcset="dist/images/carousel/carousel-5.jpg?w=250 250w, dist/images/carousel/carousel-5.jpg?resize=125%2C40 125w" sizes="(max-width: 250px) 100vw, 250px"></div>
+                                 <div><img src="dist/images/carousel/carousel-6.jpg?fit=250%2C80" width="250" height="80" alt="" srcset="dist/images/carousel/carousel-6.jpg?w=250 250w, dist/images/carousel/carousel-6.jpg?resize=125%2C40 125w" sizes="(max-width: 250px) 100vw, 250px"></div>
+                                 <div><img src="dist/images/carousel/carousel-5.jpg?fit=250%2C80" width="250" height="80" alt="" srcset="dist/images/carousel/carousel-5.jpg?w=250 250w, dist/images/carousel/carousel-5.jpg?resize=125%2C40 125w" sizes="(max-width: 250px) 100vw, 250px"></div>
+                                 <div><img src="dist/images/carousel/carousel-4.jpg?fit=250%2C80" width="250" height="80" alt="" srcset="dist/images/carousel/carousel-4.jpg?w=250 250w, dist/images/carousel/carousel-4.jpg?resize=125%2C40 125w" sizes="(max-width: 250px) 100vw, 250px"></div>
+                                 <div><img src="dist/images/carousel/carousel-3.jpg?fit=250%2C80" width="250" height="80" alt="" srcset="dist/images/carousel/carousel-3.jpg?w=250 250w, dist/images/carousel/carousel-3.jpg?resize=125%2C40 125w" sizes="(max-width: 250px) 100vw, 250px"></div>
+                                 <div><img src="dist/images/carousel/carousel-2.jpg?fit=250%2C80" width="250" height="80" alt="" srcset="dist/images/carousel/carousel-2.jpg?w=250 250w, dist/images/carousel/carousel-2.jpg?resize=125%2C40 125w" sizes="(max-width: 250px) 100vw, 250px"></div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+<!-- SECCION CLIENTES -->
+
+<!-- SECCION CONTACTENOS -->
+         <section class="main-section client-part" id="contactenos">
+            <div class="container">
+               <div class="row">
+                  <div class="col-sm-6 col-xs-5">
+                     <img src="dist/images/logo-225x163.png" alt="Contáctenos">
+                     <p class="client-part-haead wow fadeInDown delay-05" style="color: #0073b7 !important;">Nuestra empresa cuenta con profesionales de distintas disciplinas, las cuales responden a las exigencias y demandas. Brindamos las mejores soluciones integrales del mercado</p>
+                     <div class="box box-widget" style="background: none;">
+                        <div class="box-body">
+                           <h5 style="color: #0073b7;">Declaración PDT</h5>
+                           <h5 style="color: #0073b7;">Fiscalizaciones</h5>
+                           <h5 style="color: #0073b7;">Asesoría contable</h5>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-sm-6 col-xs-6">
+                     <div class="col-sm-3">&nbsp;</div>
+                     <div class="col-sm-8">
+                        <div class="box box-widget widget-user-2">
+                           <div class="widget-user-header bg-blue">
+                              <strong style="font-size: 1.5em;">Registrate ahora</strong>
+                           </div>
+                           <div class="box-body bg-info transparent">
+                              <div class="form-group">
+                                 <input type="text" class="form-control" id="nombres" placeholder="Nombres" style="border:none; background: #FFF;">
+                              </div>
+                              <div class="form-group">
+                                 <input type="text" class="form-control" id="apellidos" placeholder="Apellidos" style="border:none; background: #FFF;">
+                              </div>
+                              <div class="form-group">
+                                 <input type="email" class="form-control" id="email" placeholder="Email" style="border:none; background: #FFF;">
+                              </div>
+                              <div class="form-group">
+                                 <textarea class="form-control" rows="3" placeholder="Escríbenos"></textarea>
+                              </div>
+                           </div>
+                           <div class="box-footer bg-info padding" style="background: #d9edf7;">
+                              <button type="submit" class="btn btn-primary col-sm-12" style="color: #FFF;">Solicitar</button>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-sm-1">&nbsp;</div>
+                  </div>
+               </div>
+            </div>
+         </section>
+<!-- SECCION CONTACTENOS -->
+
          <!-- footer -->
          <footer id="footer" class="clearfix footer">
             <section class="footer_widgets content_row row clearfix footer fixed_heights footer_contents fullwidth">
@@ -359,7 +495,7 @@
                            <h5>En las redes</h5>
                            <div class="businesslounge-social-media-widget">
                               <ul class="social_media multiline-list">
-                                 <li class="twitter"><a class="ui-icon-twitter" target="_blank" href="#" title="Twitter">Twitter</a></li>
+                                 <li class="twitter"><a class="ui-icon-twitter" target="_blank" href="https://twitter.com/JanetAlarcon_EC" title="Twitter">Twitter</a></li>
                                  <li class="facebook"><a class="ui-icon-facebook" target="_blank" href="https://www.facebook.com/Janet-Alarcon-527933214233967/" title="Facebook">Facebook</a></li>
                                  <li class="linkedin"><a class="ui-icon-linkedin" target="_blank" href="#" title="Linkedin">LinkedIn</a></li>
                                  <li class="skype"><a class="ui-icon-skype" target="_blank" href="#" title="Skype">Skype</a></li>
@@ -389,8 +525,8 @@
                   <div class="copyright">Copyright © 2018 Diseñado por<a href="https://www.facebook.com/Janet-Alarcon-527933214233967/"> NAP</a></div>
                   <div class="footer-navigation-container">
                      <ul id="footer-navigation" class="menu">
-                        <li id="menu-item-4462" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4462"><a href="nosotros.html">Nosotros</a></li>
-                        <li id="menu-item-4461" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4461"><a href="servicios.html">Servicios</a></li>
+                        <li id="menu-item-4462" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4462"><a href="#nosotros">Nosotros</a></li>
+                        <li id="menu-item-4461" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4461"><a href="#servicios">Servicios</a></li>
                         <li id="menu-item-4463" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4463"><a href="contactenos.html">Contáctenos</a></li>
                      </ul>
                   </div>
@@ -444,7 +580,7 @@
                   <div id="social_media_icons-4" class="sidepanel-widget widget widget_social_media_icons">
                      <div class="businesslounge-social-media-widget">
                         <ul class="social_media inline-list">
-                           <li class="twitter"><a class="ui-icon-twitter" target="_blank" href="#" title="Twitter"><span>Twitter</span></a></li>
+                           <li class="twitter"><a class="ui-icon-twitter" target="_blank" href="https://twitter.com/JanetAlarcon_EC" title="Twitter"><span>Twitter</span></a></li>
                            <li class="facebook"><a class="ui-icon-facebook" target="_blank" href="https://www.facebook.com/Janet-Alarcon-527933214233967/" title="Facebook"><span>Facebook</span></a></li>
                            <li class="linkedin"><a class="ui-icon-linkedin" target="_blank" href="#" title="Linkedin"><span>LinkedIn</span></a></li>
                            <li class="skype"><a class="ui-icon-skype" target="_blank" href="#" title="Skype"><span>Skype</span></a></li>
@@ -476,5 +612,4 @@
       <script type='text/javascript' src='dist/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=5.3'></script>
       <script type='text/javascript' src='dist/js/e-201803.js' async defer></script>
    </body>
-
 </html>

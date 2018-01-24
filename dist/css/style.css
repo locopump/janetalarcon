@@ -5,7 +5,7 @@ Author: RT-Themes
 Version: 1.1
 Author URI: http://themeforest.net/user/stmcan
 Theme URI: http://rtthemes.com
-Description: Business WordPress Theme 
+Description: Business WordPress Theme
 License: GNU General Public License
 License URI: /Licensing/gpl.txt
 Text Domain: businesslounge
@@ -15,3 +15,27 @@ Text Domain: businesslounge
 /*
 	EDIT /css/style.css for the theme style
 */
+
+.main-section {
+    padding: 90px 0 110px;
+}
+.client-part {
+    background: url(../images/section-bg5.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 55px 0;
+    text-align: center;
+}
+
+.box {
+    position: relative;
+    border-radius: 3px;
+    background: #ffffff;
+    border-top: 3px solid #d2d6de;
+    margin-bottom: 20px;
+    width: 100%;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+.box-widget {
+    border: none;
+    position: relative;
+}
